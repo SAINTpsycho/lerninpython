@@ -1,7 +1,7 @@
 game = [[0, 0, 0],
         [0, 0, 0],
         [0, 0, 0],]
-
+#smellycat
 game[0][1] = 1
 
 print("   a  b  c")
