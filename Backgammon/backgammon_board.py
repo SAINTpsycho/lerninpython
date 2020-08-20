@@ -15,11 +15,13 @@ board = """
 white = "X"
 black = "0"
 
-empty_bar = """|
+empty_bar = """
 |
 |
 |
-|"""
+|
+|
+"""
 
 black_bar = empty_bar
 white_bar = empty_bar
@@ -35,11 +37,13 @@ def combine_pip(pip_list):
         
     return out
 
-empty_pip = """.
+empty_pip = """
 .
 .
 .
-."""
+.
+.
+"""
 pips = {}
 for i in range(24):
     pips[i+1] = empty_pip
